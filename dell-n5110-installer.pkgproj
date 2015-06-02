@@ -11512,6 +11512,110 @@
 			<key>UUID</key>
 			<string>064D1495-8781-4289-A688-979A0992D898</string>
 		</dict>
+		<dict>
+			<key>PACKAGE_SCRIPTS</key>
+			<dict>
+				<key>POSTINSTALL_PATH</key>
+				<dict>
+					<key>PATH</key>
+					<string>Kexts &amp; Patches/kexts.sh</string>
+					<key>PATH_TYPE</key>
+					<integer>1</integer>
+				</dict>
+				<key>RESOURCES</key>
+				<array>
+					<dict>
+						<key>CHILDREN</key>
+						<array/>
+						<key>GID</key>
+						<integer>0</integer>
+						<key>PATH</key>
+						<string>Kexts &amp; Patches/Kexts</string>
+						<key>PATH_TYPE</key>
+						<integer>1</integer>
+						<key>PERMISSIONS</key>
+						<integer>493</integer>
+						<key>TYPE</key>
+						<integer>3</integer>
+						<key>UID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>PACKAGE_SETTINGS</key>
+			<dict>
+				<key>AUTHENTICATION</key>
+				<integer>1</integer>
+				<key>CONCLUSION_ACTION</key>
+				<integer>0</integer>
+				<key>IDENTIFIER</key>
+				<string>com.thesabbir.kexts</string>
+				<key>LOCATION</key>
+				<integer>0</integer>
+				<key>NAME</key>
+				<string>Kexts</string>
+				<key>OVERWRITE_PERMISSIONS</key>
+				<false/>
+				<key>VERSION</key>
+				<string>1.0</string>
+			</dict>
+			<key>TYPE</key>
+			<integer>0</integer>
+			<key>UUID</key>
+			<string>298CB2EF-B91D-423D-9E18-F17184D88847</string>
+		</dict>
+		<dict>
+			<key>PACKAGE_SCRIPTS</key>
+			<dict>
+				<key>POSTINSTALL_PATH</key>
+				<dict>
+					<key>PATH</key>
+					<string>Kexts &amp; Patches/applehda.sh</string>
+					<key>PATH_TYPE</key>
+					<integer>1</integer>
+				</dict>
+				<key>RESOURCES</key>
+				<array>
+					<dict>
+						<key>CHILDREN</key>
+						<array/>
+						<key>GID</key>
+						<integer>0</integer>
+						<key>PATH</key>
+						<string>Kexts &amp; Patches/AppleHDA</string>
+						<key>PATH_TYPE</key>
+						<integer>1</integer>
+						<key>PERMISSIONS</key>
+						<integer>493</integer>
+						<key>TYPE</key>
+						<integer>3</integer>
+						<key>UID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>PACKAGE_SETTINGS</key>
+			<dict>
+				<key>AUTHENTICATION</key>
+				<integer>1</integer>
+				<key>CONCLUSION_ACTION</key>
+				<integer>0</integer>
+				<key>IDENTIFIER</key>
+				<string>com.thesabbir.applehda</string>
+				<key>LOCATION</key>
+				<integer>0</integer>
+				<key>NAME</key>
+				<string>AppleHDA Patch</string>
+				<key>OVERWRITE_PERMISSIONS</key>
+				<false/>
+				<key>VERSION</key>
+				<string>1.0</string>
+			</dict>
+			<key>TYPE</key>
+			<integer>0</integer>
+			<key>UUID</key>
+			<string>B164F4CC-6ABB-4F9E-8A9D-2CE851530A46</string>
+		</dict>
 	</array>
 	<key>PROJECT</key>
 	<dict>
@@ -12238,6 +12342,81 @@
 								<integer>1</integer>
 								<key>UUID</key>
 								<string>A87A754E-AA94-406E-B5FC-5FA5853FB0BB</string>
+							</dict>
+							<dict>
+								<key>CHILDREN</key>
+								<array>
+									<dict>
+										<key>DESCRIPTION</key>
+										<array/>
+										<key>OPTIONS</key>
+										<dict>
+											<key>HIDDEN</key>
+											<false/>
+											<key>STATE</key>
+											<integer>2</integer>
+										</dict>
+										<key>PACKAGE_UUID</key>
+										<string>298CB2EF-B91D-423D-9E18-F17184D88847</string>
+										<key>REQUIREMENTS</key>
+										<array/>
+										<key>TITLE</key>
+										<array/>
+										<key>TOOLTIP</key>
+										<array/>
+										<key>TYPE</key>
+										<integer>0</integer>
+										<key>UUID</key>
+										<string>7903EC99-B685-409E-AD4C-B4EFBAF17C58</string>
+									</dict>
+									<dict>
+										<key>DESCRIPTION</key>
+										<array/>
+										<key>OPTIONS</key>
+										<dict>
+											<key>HIDDEN</key>
+											<false/>
+											<key>STATE</key>
+											<integer>2</integer>
+										</dict>
+										<key>PACKAGE_UUID</key>
+										<string>B164F4CC-6ABB-4F9E-8A9D-2CE851530A46</string>
+										<key>REQUIREMENTS</key>
+										<array/>
+										<key>TITLE</key>
+										<array/>
+										<key>TOOLTIP</key>
+										<array/>
+										<key>TYPE</key>
+										<integer>0</integer>
+										<key>UUID</key>
+										<string>E033F31C-BCE4-4A81-8F6C-F99BA915D896</string>
+									</dict>
+								</array>
+								<key>DESCRIPTION</key>
+								<array/>
+								<key>OPTIONS</key>
+								<dict>
+									<key>HIDDEN</key>
+									<false/>
+									<key>HIDE_CHILDREN</key>
+									<false/>
+									<key>STATE</key>
+									<integer>4</integer>
+								</dict>
+								<key>TITLE</key>
+								<array>
+									<dict>
+										<key>LANGUAGE</key>
+										<string>English</string>
+										<key>VALUE</key>
+										<string>Kexts &amp; Patches</string>
+									</dict>
+								</array>
+								<key>TYPE</key>
+								<integer>1</integer>
+								<key>UUID</key>
+								<string>F50970DC-6DE8-4BF5-9DFD-0FAEFE7C728C</string>
 							</dict>
 						</array>
 						<key>REMOVED</key>
