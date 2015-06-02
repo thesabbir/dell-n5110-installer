@@ -4,7 +4,14 @@ Inspired by [HP ProBook Installer](https://bitbucket.org/dhnguyenit/hp-probook-i
 
 Patches & Files from [Mohamed Khairy's Guide] (http://www.insanelymac.com/forum/topic/271573-guide-dell-inspiron-n5110)
 
+#Download
+
+[Latest Version (1.0-alpha)](https://github.com/thesabbir/dell-n5110-installer/releases/download/v1.0.0-alpha/Dell.N5100.Installer.zip)
+
 #Changelog
+* Version 1.0.0-Alpha
+   * POST Installation Installer
+
 * Version 0.0.0
    * Intialization
 
