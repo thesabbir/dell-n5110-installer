@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -f  SSDT-4.aml  /Volumes/TEFI/EFI/CLOVER/ACPI/patched
+cp -f  SSDT-4.aml  /Volumes/EFI/EFI/CLOVER/ACPI/patched
