@@ -11677,7 +11677,7 @@
 												<key>LANGUAGE</key>
 												<string>English</string>
 												<key>VALUE</key>
-												<string>Installs clover uefi files</string>
+												<string>Installs clover uefi files. Please select one of the config bellow if you select this.</string>
 											</dict>
 										</array>
 										<key>OPTIONS</key>
@@ -11709,7 +11709,14 @@
 									</dict>
 									<dict>
 										<key>DESCRIPTION</key>
-										<array/>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Clover config.plist for nvidia &amp; amd graphics. Do not select this if you dont want to overwrite your config.plist</string>
+											</dict>
+										</array>
 										<key>OPTIONS</key>
 										<dict>
 											<key>HIDDEN</key>
@@ -11732,7 +11739,14 @@
 									</dict>
 									<dict>
 										<key>DESCRIPTION</key>
-										<array/>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Clover config.plist for intel only graphics. Do not select this if you dont want to overwrite your config.plits.</string>
+											</dict>
+										</array>
 										<key>OPTIONS</key>
 										<dict>
 											<key>HIDDEN</key>
@@ -11755,7 +11769,14 @@
 									</dict>
 								</array>
 								<key>DESCRIPTION</key>
-								<array/>
+								<array>
+									<dict>
+										<key>LANGUAGE</key>
+										<string>English</string>
+										<key>VALUE</key>
+										<string>Install Clover UEFI Bootloader to EFI partition.</string>
+									</dict>
+								</array>
 								<key>OPTIONS</key>
 								<dict>
 									<key>HIDDEN</key>
@@ -11839,75 +11860,6 @@
 											<integer>2</integer>
 										</dict>
 										<key>PACKAGE_UUID</key>
-										<string>045FC4AF-485A-4C54-9FA5-86118EC8A622</string>
-										<key>REQUIREMENTS</key>
-										<array/>
-										<key>TITLE</key>
-										<array/>
-										<key>TOOLTIP</key>
-										<array/>
-										<key>TYPE</key>
-										<integer>0</integer>
-										<key>UUID</key>
-										<string>9FD9FB39-D536-42F4-8643-4882400BB290</string>
-									</dict>
-									<dict>
-										<key>DESCRIPTION</key>
-										<array/>
-										<key>OPTIONS</key>
-										<dict>
-											<key>HIDDEN</key>
-											<false/>
-											<key>STATE</key>
-											<integer>2</integer>
-										</dict>
-										<key>PACKAGE_UUID</key>
-										<string>1D039070-8CDB-43E4-9C42-139F2B166370</string>
-										<key>REQUIREMENTS</key>
-										<array/>
-										<key>TITLE</key>
-										<array/>
-										<key>TOOLTIP</key>
-										<array/>
-										<key>TYPE</key>
-										<integer>0</integer>
-										<key>UUID</key>
-										<string>586D5ADA-20B6-4BA4-8D22-F8173AF3FA72</string>
-									</dict>
-									<dict>
-										<key>DESCRIPTION</key>
-										<array/>
-										<key>OPTIONS</key>
-										<dict>
-											<key>HIDDEN</key>
-											<false/>
-											<key>STATE</key>
-											<integer>2</integer>
-										</dict>
-										<key>PACKAGE_UUID</key>
-										<string>D59194DC-B703-4365-885D-B18CF679A884</string>
-										<key>REQUIREMENTS</key>
-										<array/>
-										<key>TITLE</key>
-										<array/>
-										<key>TOOLTIP</key>
-										<array/>
-										<key>TYPE</key>
-										<integer>0</integer>
-										<key>UUID</key>
-										<string>29892AEA-4F4F-4200-91FC-20742A16364A</string>
-									</dict>
-									<dict>
-										<key>DESCRIPTION</key>
-										<array/>
-										<key>OPTIONS</key>
-										<dict>
-											<key>HIDDEN</key>
-											<false/>
-											<key>STATE</key>
-											<integer>2</integer>
-										</dict>
-										<key>PACKAGE_UUID</key>
 										<string>BE7214AD-D8C1-40F8-8FFC-83DD6B7DD666</string>
 										<key>REQUIREMENTS</key>
 										<array/>
@@ -11931,7 +11883,7 @@
 											<integer>2</integer>
 										</dict>
 										<key>PACKAGE_UUID</key>
-										<string>5DFF9DEA-30B4-48BE-82B0-FCE15B71E4C4</string>
+										<string>045FC4AF-485A-4C54-9FA5-86118EC8A622</string>
 										<key>REQUIREMENTS</key>
 										<array/>
 										<key>TITLE</key>
@@ -11941,7 +11893,7 @@
 										<key>TYPE</key>
 										<integer>0</integer>
 										<key>UUID</key>
-										<string>7AA36A29-731B-4ABC-992A-CB4126D650E0</string>
+										<string>9FD9FB39-D536-42F4-8643-4882400BB290</string>
 									</dict>
 									<dict>
 										<key>DESCRIPTION</key>
@@ -11954,7 +11906,7 @@
 											<integer>2</integer>
 										</dict>
 										<key>PACKAGE_UUID</key>
-										<string>ADD9E4A3-53D3-4282-BF03-FBA65E108486</string>
+										<string>D135871E-D859-48FC-A1A0-2CB339E62039</string>
 										<key>REQUIREMENTS</key>
 										<array/>
 										<key>TITLE</key>
@@ -11964,30 +11916,7 @@
 										<key>TYPE</key>
 										<integer>0</integer>
 										<key>UUID</key>
-										<string>1FA99E04-A694-4026-A8C6-6C9B85C12603</string>
-									</dict>
-									<dict>
-										<key>DESCRIPTION</key>
-										<array/>
-										<key>OPTIONS</key>
-										<dict>
-											<key>HIDDEN</key>
-											<false/>
-											<key>STATE</key>
-											<integer>2</integer>
-										</dict>
-										<key>PACKAGE_UUID</key>
-										<string>64FC9C8D-9BD4-4782-BDEB-3DD150670E43</string>
-										<key>REQUIREMENTS</key>
-										<array/>
-										<key>TITLE</key>
-										<array/>
-										<key>TOOLTIP</key>
-										<array/>
-										<key>TYPE</key>
-										<integer>0</integer>
-										<key>UUID</key>
-										<string>C252BE2A-C7DF-4FA5-86F9-D423046A6C34</string>
+										<string>6AB86657-AEAD-4D91-9F82-533365E2DED2</string>
 									</dict>
 									<dict>
 										<key>DESCRIPTION</key>
@@ -12046,7 +11975,7 @@
 											<integer>2</integer>
 										</dict>
 										<key>PACKAGE_UUID</key>
-										<string>D135871E-D859-48FC-A1A0-2CB339E62039</string>
+										<string>64FC9C8D-9BD4-4782-BDEB-3DD150670E43</string>
 										<key>REQUIREMENTS</key>
 										<array/>
 										<key>TITLE</key>
@@ -12056,7 +11985,122 @@
 										<key>TYPE</key>
 										<integer>0</integer>
 										<key>UUID</key>
-										<string>6AB86657-AEAD-4D91-9F82-533365E2DED2</string>
+										<string>C252BE2A-C7DF-4FA5-86F9-D423046A6C34</string>
+									</dict>
+									<dict>
+										<key>DESCRIPTION</key>
+										<array/>
+										<key>OPTIONS</key>
+										<dict>
+											<key>HIDDEN</key>
+											<false/>
+											<key>STATE</key>
+											<integer>2</integer>
+										</dict>
+										<key>PACKAGE_UUID</key>
+										<string>ADD9E4A3-53D3-4282-BF03-FBA65E108486</string>
+										<key>REQUIREMENTS</key>
+										<array/>
+										<key>TITLE</key>
+										<array/>
+										<key>TOOLTIP</key>
+										<array/>
+										<key>TYPE</key>
+										<integer>0</integer>
+										<key>UUID</key>
+										<string>1FA99E04-A694-4026-A8C6-6C9B85C12603</string>
+									</dict>
+									<dict>
+										<key>DESCRIPTION</key>
+										<array/>
+										<key>OPTIONS</key>
+										<dict>
+											<key>HIDDEN</key>
+											<false/>
+											<key>STATE</key>
+											<integer>2</integer>
+										</dict>
+										<key>PACKAGE_UUID</key>
+										<string>D59194DC-B703-4365-885D-B18CF679A884</string>
+										<key>REQUIREMENTS</key>
+										<array/>
+										<key>TITLE</key>
+										<array/>
+										<key>TOOLTIP</key>
+										<array/>
+										<key>TYPE</key>
+										<integer>0</integer>
+										<key>UUID</key>
+										<string>29892AEA-4F4F-4200-91FC-20742A16364A</string>
+									</dict>
+									<dict>
+										<key>DESCRIPTION</key>
+										<array/>
+										<key>OPTIONS</key>
+										<dict>
+											<key>HIDDEN</key>
+											<false/>
+											<key>STATE</key>
+											<integer>2</integer>
+										</dict>
+										<key>PACKAGE_UUID</key>
+										<string>1D039070-8CDB-43E4-9C42-139F2B166370</string>
+										<key>REQUIREMENTS</key>
+										<array/>
+										<key>TITLE</key>
+										<array/>
+										<key>TOOLTIP</key>
+										<array/>
+										<key>TYPE</key>
+										<integer>0</integer>
+										<key>UUID</key>
+										<string>586D5ADA-20B6-4BA4-8D22-F8173AF3FA72</string>
+									</dict>
+									<dict>
+										<key>DESCRIPTION</key>
+										<array/>
+										<key>OPTIONS</key>
+										<dict>
+											<key>HIDDEN</key>
+											<false/>
+											<key>STATE</key>
+											<integer>2</integer>
+										</dict>
+										<key>PACKAGE_UUID</key>
+										<string>5DFF9DEA-30B4-48BE-82B0-FCE15B71E4C4</string>
+										<key>REQUIREMENTS</key>
+										<array/>
+										<key>TITLE</key>
+										<array/>
+										<key>TOOLTIP</key>
+										<array/>
+										<key>TYPE</key>
+										<integer>0</integer>
+										<key>UUID</key>
+										<string>7AA36A29-731B-4ABC-992A-CB4126D650E0</string>
+									</dict>
+									<dict>
+										<key>DESCRIPTION</key>
+										<array/>
+										<key>OPTIONS</key>
+										<dict>
+											<key>HIDDEN</key>
+											<false/>
+											<key>STATE</key>
+											<integer>2</integer>
+										</dict>
+										<key>PACKAGE_UUID</key>
+										<string>316D3BC6-2617-4401-BBD8-C9DCC5A8D83C</string>
+										<key>REQUIREMENTS</key>
+										<array/>
+										<key>TITLE</key>
+										<array/>
+										<key>TOOLTIP</key>
+										<array/>
+										<key>TYPE</key>
+										<integer>0</integer>
+										<key>UUID</key>
+										<string>A60FB237-EE08-4922-BBEB-E00FE2EEB5F7</string>
 									</dict>
 									<dict>
 										<key>DESCRIPTION</key>
@@ -12184,29 +12228,6 @@
 											<integer>2</integer>
 										</dict>
 										<key>PACKAGE_UUID</key>
-										<string>316D3BC6-2617-4401-BBD8-C9DCC5A8D83C</string>
-										<key>REQUIREMENTS</key>
-										<array/>
-										<key>TITLE</key>
-										<array/>
-										<key>TOOLTIP</key>
-										<array/>
-										<key>TYPE</key>
-										<integer>0</integer>
-										<key>UUID</key>
-										<string>A60FB237-EE08-4922-BBEB-E00FE2EEB5F7</string>
-									</dict>
-									<dict>
-										<key>DESCRIPTION</key>
-										<array/>
-										<key>OPTIONS</key>
-										<dict>
-											<key>HIDDEN</key>
-											<false/>
-											<key>STATE</key>
-											<integer>2</integer>
-										</dict>
-										<key>PACKAGE_UUID</key>
 										<string>DC1F449C-E7B2-4EA4-89AC-1F790E5311E0</string>
 										<key>REQUIREMENTS</key>
 										<array/>
@@ -12221,7 +12242,14 @@
 									</dict>
 								</array>
 								<key>DESCRIPTION</key>
-								<array/>
+								<array>
+									<dict>
+										<key>LANGUAGE</key>
+										<string>English</string>
+										<key>VALUE</key>
+										<string>SSDT-4 ACPI Patch. Make sure you choose right cpu model.</string>
+									</dict>
+								</array>
 								<key>OPTIONS</key>
 								<dict>
 									<key>HIDDEN</key>
@@ -12250,7 +12278,14 @@
 								<array>
 									<dict>
 										<key>DESCRIPTION</key>
-										<array/>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Chose this if you only have intel GPU.</string>
+											</dict>
+										</array>
 										<key>OPTIONS</key>
 										<dict>
 											<key>HIDDEN</key>
@@ -12273,7 +12308,14 @@
 									</dict>
 									<dict>
 										<key>DESCRIPTION</key>
-										<array/>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Chose this if you only have intel+ nvidia GPU.</string>
+											</dict>
+										</array>
 										<key>OPTIONS</key>
 										<dict>
 											<key>HIDDEN</key>
@@ -12296,7 +12338,14 @@
 									</dict>
 									<dict>
 										<key>DESCRIPTION</key>
-										<array/>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Chose this if you only have intel + amd GPU.</string>
+											</dict>
+										</array>
 										<key>OPTIONS</key>
 										<dict>
 											<key>HIDDEN</key>
@@ -12319,7 +12368,14 @@
 									</dict>
 								</array>
 								<key>DESCRIPTION</key>
-								<array/>
+								<array>
+									<dict>
+										<key>LANGUAGE</key>
+										<string>English</string>
+										<key>VALUE</key>
+										<string>Installs DSDT.aml </string>
+									</dict>
+								</array>
 								<key>OPTIONS</key>
 								<dict>
 									<key>HIDDEN</key>
@@ -12348,7 +12404,14 @@
 								<array>
 									<dict>
 										<key>DESCRIPTION</key>
-										<array/>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Included kexts:   1. ACPIBatteryManager.kext   2. GenericUSBXHCI.kext   3. VoodooPS2Controller.kext   4. BTFirmwareUploader.kext   5. FakeSMC.kext   6. RealtekRTL8100.kext  7. CustomPeripheral.kext                </string>
+											</dict>
+										</array>
 										<key>OPTIONS</key>
 										<dict>
 											<key>HIDDEN</key>
@@ -12371,7 +12434,14 @@
 									</dict>
 									<dict>
 										<key>DESCRIPTION</key>
-										<array/>
+										<array>
+											<dict>
+												<key>LANGUAGE</key>
+												<string>English</string>
+												<key>VALUE</key>
+												<string>Patch AppleHDA.kext</string>
+											</dict>
+										</array>
 										<key>OPTIONS</key>
 										<dict>
 											<key>HIDDEN</key>
@@ -12394,7 +12464,14 @@
 									</dict>
 								</array>
 								<key>DESCRIPTION</key>
-								<array/>
+								<array>
+									<dict>
+										<key>LANGUAGE</key>
+										<string>English</string>
+										<key>VALUE</key>
+										<string>Installs necessary Kext files.</string>
+									</dict>
+								</array>
 								<key>OPTIONS</key>
 								<dict>
 									<key>HIDDEN</key>
@@ -12597,6 +12674,29 @@
 					<key>STATE</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>BEHAVIOR</key>
+					<integer>3</integer>
+					<key>DICTIONARY</key>
+					<dict>
+						<key>IC_REQUIREMENT_OS_DISK_TYPE</key>
+						<integer>0</integer>
+						<key>IC_REQUIREMENT_OS_DISTRIBUTION_TYPE</key>
+						<integer>0</integer>
+						<key>IC_REQUIREMENT_OS_MINIMUM_VERSION</key>
+						<integer>101000</integer>
+					</dict>
+					<key>IC_REQUIREMENT_CHECK_TYPE</key>
+					<integer>1</integer>
+					<key>IDENTIFIER</key>
+					<string>fr.whitebox.Packages.requirement.os</string>
+					<key>MESSAGE</key>
+					<array/>
+					<key>NAME</key>
+					<string>Operating System</string>
+					<key>STATE</key>
+					<true/>
+				</dict>
 			</array>
 			<key>POSTINSTALL_PATH</key>
 			<dict/>
@@ -12605,7 +12705,7 @@
 			<key>RESOURCES</key>
 			<array/>
 			<key>ROOT_VOLUME_ONLY</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>PROJECT_SETTINGS</key>
 		<dict>
@@ -12615,7 +12715,7 @@
 				<true/>
 			</dict>
 			<key>BUILD_FORMAT</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>BUILD_PATH</key>
 			<dict>
 				<key>PATH</key>
