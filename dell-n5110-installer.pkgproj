@@ -16306,6 +16306,18 @@
 			<string>0648F034-8A4D-4188-840A-79D6EA731543</string>
 		</dict>
 		<dict>
+			<key>PACKAGE_SCRIPTS</key>
+			<dict>
+				<key>PREINSTALL_PATH</key>
+				<dict>
+					<key>PATH</key>
+					<string>pre-install.sh</string>
+					<key>PATH_TYPE</key>
+					<integer>1</integer>
+				</dict>
+				<key>RESOURCES</key>
+				<array/>
+			</dict>
 			<key>PACKAGE_SETTINGS</key>
 			<dict>
 				<key>AUTHENTICATION</key>
@@ -16792,6 +16804,18 @@
 				<integer>0</integer>
 				<key>VERSION</key>
 				<integer>3</integer>
+			</dict>
+			<key>PACKAGE_SCRIPTS</key>
+			<dict>
+				<key>POSTINSTALL_PATH</key>
+				<dict>
+					<key>PATH</key>
+					<string>post-install.sh</string>
+					<key>PATH_TYPE</key>
+					<integer>1</integer>
+				</dict>
+				<key>RESOURCES</key>
+				<array/>
 			</dict>
 			<key>PACKAGE_SETTINGS</key>
 			<dict>
