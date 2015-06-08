@@ -24,10 +24,15 @@ Patches & Files from [Mohamed Khairy's Guide] (http://www.insanelymac.com/forum/
 * Version 0.0.0
    * Intialization
 
-#Credits
-TODO
-TODO: Add other licenses from third party projects used in this installer.
-
+#Credits & Thanks to..
+* Mohamed Khairy for his excellent guide.
+* Clover Team for Clover Bootloader.
+* RehabMan, kozlek, netkas, slice and navi for FakeSMC.
+* RehabMan for The VoodooPS2Controller.
+* HP Probook Installer contributors for SSDT4 files.
+* mac4mat for BTFirmwareUploader.kext.
+* Zenith432 and RehabMan for GenericUSBXHCI.kext.
+* Stéphane Sudre for Packages App.
 
 #LICENSE
 
