@@ -4,9 +4,12 @@ Inspired by [HP ProBook Installer](https://bitbucket.org/dhnguyenit/hp-probook-i
 
 Patches & Files from [Mohamed Khairy's Guide] (http://www.insanelymac.com/forum/topic/271573-guide-dell-inspiron-n5110)
 
-* Install this if you followed Mohamed Khairy's Guide only.
-* Only OSX 10.10
+* Install only if you are following Mohamed Khairy's Guide.
+* Only for OSX 10.10.x
 * Only For Post installation (TODO: Pre-installation)
+
+#Shot
+![](https://photos-4.dropbox.com/t/2/AADvAH1FUaqa597Mg7lrEGIPy_Ijx3o1ZDcddoyadc61RA/12/71007076/png/32x32/1/1434682800/0/2/Screenshot%202015-06-19%2007.45.34.png/COT27SEgASACIAMgBCAFIAYgBygBKAI/2lefIiTzzC54fMeGxdlil9nE9sTvgo6u7xksNUWPN2U?size=2048x1536&size_mode=2)
 
 #Download
 
